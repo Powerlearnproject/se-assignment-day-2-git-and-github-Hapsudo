@@ -2,9 +2,43 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=18631929&assignment_repo_type=AssignmentRepo)
 # se-day-2-git-and-github
 ## Explain the fundamental concepts of version control and why GitHub is a popular tool for managing versions of code. How does version control help in maintaining project integrity?
+Fundamental concepts:
+1. Repository - A storage location where all files and their history changes are mantained.
+2. Commit - A snapshot of the project at a specified time.
+3. Branching - Creating a separate copy of the project to work on an a new feature without affecting the main codebase.
+4. Merging - Combining changes from different branches into one.
+5. PRS Pull requests - Used during collaboration of workflows to review and merge changes before integrating them into the main project.
+6. Conflict resolution - Handling situations where multiple changes affect the same part of a file.
+
+Why Github is popular
+   1. Open source community - Supports millions of open source projects and encourages contribution of developers.
+   2. Cloud based - Developers can work from anywhere and contribute to the same projects.
+   3. Tracking of issues - Helps to manage bugs, feature requests and tasks in a structures manner.
+   4. Pull requests & code reviews - Allow peer reviews before merging changes, improving code quality.
+   5. CI/CD Integration - Supports automated testing and deployment pipelines.
+   6. Security & Backup - Ensures safety with access control, two factor authentication and repository backups.
+
+  How version control Helps Mantain project integrity
+  1. Tracks changes - Each change is logged and timestamped with author details.
+  2. Prevents data loss - All changes are recorded and previous versions can be restored.
+  3. Ensures code consistency - Standardized workflows with reviews help manatain quality and structure.
+  4. Facilitates collaboration - Multiple developers can work simultaneously without overwriting each other's code.
+  5. Supports experimentation - Developers are able to create branches to test new features without breaking the main project.
 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
-
+Setting up a new repo on GitHub
+1. Go to Github.com and sign in or create an account.
+2. Navigate to profile picture on top-right corner and select ' Your repositories'
+3. Click 'New' which will lead to repository creation page.
+4. Configure the repository name.
+5. Describe what the project is all about, this is optional and choose visibility option.
+6. You can add READMe file to describe setup instruction, or a .gitignore  File to tellGit which file or foldrs to ignore.
+7. Click 'create Repository'
+Important Decisions
+1. Public/ Private Repository - Consider whether the project will be open-source
+2. README File - Helps others understand and contribute to the project.
+3. .gitignore - prevents unnecessary files from being tracked.
+4. License - Important for open source projects that helps to defien user rights.
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
 ## Compare and contrast the differences between a public repository and a private repository on GitHub. What are the advantages and disadvantages of each, particularly in the context of collaborative projects?
