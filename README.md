@@ -34,6 +34,7 @@ Setting up a new repo on GitHub
 5. Describe what the project is all about, this is optional and choose visibility option.
 6. You can add READMe file to describe setup instruction, or a .gitignore  File to tellGit which file or foldrs to ignore.
 7. Click 'create Repository'
+8. 
 Important Decisions
 1. Public/ Private Repository - Consider whether the project will be open-source
 2. README File - Helps others understand and contribute to the project.
